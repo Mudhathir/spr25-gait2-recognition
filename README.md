@@ -1,4 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/j78CS3NM)
-# Gait Recognition Project 2
+# SPR25 Gait Recognition Project 2
 
-This repo is used to check the format of your prediction, and also to submit your predictions. Make sure that you put your predictions in the `Test1-Pred` and `Test2-Pred` directories, respectively. The naming should be consistent with the rest of the dataset.
+**Ensemble of Deep MLP & LightGBM for Gait Classification**
+
+### 📖 Overview
+
+This repository contains the code and data pipelines for Project 2 of the Spring 2025 Gait Recognition course. We:
+
+1. Train a deep MLP on hand‑crafted + PCA features.  
+2. Train a LightGBM model on the same features.  
+3. Stack them via 5‑fold out‑of‑fold predictions using a Logistic Regression meta‑model.  
+4. Produce probability outputs for two “competition” test sets (Test1 & Test2).  
